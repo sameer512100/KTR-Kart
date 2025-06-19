@@ -1,0 +1,32 @@
+# node modules and build output
+node_modules/
+dist/
+build/
+
+# environment files
+.env
+.env.*    # .env.local, .env.production, etc.
+
+# logs and temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+tmp/
+
+# cache and coverage
+.cache/
+coverage/
+
+# system files
+.DS_Store
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# optional: DB files for SQLite/Prisma if using
+prisma/dev.db
+prisma/dev.db-journal
